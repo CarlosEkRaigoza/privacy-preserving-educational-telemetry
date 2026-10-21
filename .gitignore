@@ -1,0 +1,14 @@
+# Deployment configuration — contains the analytics site id. Never commit it.
+trackerConfig.js
+example/trackerConfig.js
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
