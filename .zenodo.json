@@ -1,0 +1,30 @@
+{
+  "upload_type": "software",
+  "title": "Privacy-Preserving Educational Telemetry: reference implementation",
+  "description": "<p>Reference implementation of the instrumentation and pseudonymisation layers of a modular telemetry architecture for educational web platforms operating in sensitive contexts.</p><p>The architecture separates transport from the pedagogical event catalogue, dispatches every event over two independent routes so that the participant identifier never reaches the analytics engine, exchanges a short-lived single-use token so the identifier never appears as a URL parameter, and applies HMAC-SHA256 with a dedicated server-side key before any event is stored.</p><p>Accompanies the article &quot;A Modular Privacy-Preserving Telemetry Architecture for Educational Web Platforms in Sensitive Contexts&quot;.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Ek Raigoza, Carlos Roberto",
+      "orcid": "0009-0007-1671-6053",
+      "affiliation": "Facultad de Matemáticas, Universidad Autónoma de Yucatán"
+    },
+    {
+      "name": "Menéndez Domínguez, Víctor Hugo",
+      "orcid": "0000-0003-3587-1263",
+      "affiliation": "Facultad de Matemáticas, Universidad Autónoma de Yucatán"
+    }
+  ],
+  "keywords": [
+    "learning analytics",
+    "educational telemetry",
+    "privacy by design",
+    "pseudonymisation",
+    "educational data mining",
+    "child-centered systems",
+    "software architecture",
+    "open web analytics"
+  ]
+}

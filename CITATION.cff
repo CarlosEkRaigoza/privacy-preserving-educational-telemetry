@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Privacy-Preserving Educational Telemetry: reference implementation"
+abstract: >-
+  Reference implementation of the instrumentation and pseudonymisation layers
+  of a modular telemetry architecture for educational web platforms operating
+  in sensitive contexts. Separates transport from the pedagogical event
+  catalogue, dispatches every event over two independent routes so that the
+  participant identifier never reaches the analytics engine, and applies
+  HMAC-SHA256 with a dedicated server-side key before storage.
+type: software
+license: MIT
+authors:
+  - family-names: "Ek Raigoza"
+    given-names: "Carlos Roberto"
+    orcid: "https://orcid.org/0009-0007-1671-6053"
+    affiliation: "Facultad de Matemáticas, Universidad Autónoma de Yucatán"
+  - family-names: "Menéndez Domínguez"
+    given-names: "Víctor Hugo"
+    orcid: "https://orcid.org/0000-0003-3587-1263"
+    affiliation: "Facultad de Matemáticas, Universidad Autónoma de Yucatán"
+repository-code: "https://github.com/CarlosEkRaigoza/privacy-preserving-educational-telemetry"
+keywords:
+  - learning analytics
+  - educational telemetry
+  - privacy by design
+  - pseudonymisation
+  - software architecture
+version: "1.0.0"
+date-released: "2026-10-20"
